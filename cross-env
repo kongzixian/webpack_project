@@ -1,0 +1,57 @@
+E:\学习\webpack\code\webpack_project\node_modules\_mini-css-extract-plugin@0.9.0@mini-css-extract-plugin\dist\loader.js
+Hash: 74ab0d78c55ef187c3f7
+Version: webpack 4.41.6
+Time: 7329ms
+Built at: 2020-02-24 17:22:48
+ 1 asset
+Entrypoint main = ./js/bundle.main.74ab0d78c55ef187c3f7.js
+[121] multi @babel/polyfill ./src/index.js 40 bytes {0} [built]
+[308] ./src/index.js 204 bytes {0} [built]
+[309] ./src/css.less 1.8 KiB {0} [built] [failed] [1 error]
+    + 307 hidden modules
+
+ERROR in ./src/css.less
+Module build failed (from ./node_modules/_mini-css-extract-plugin@0.9.0@mini-css-extract-plugin/dist/loader.js):
+ModuleBuildError: Module build failed (from ./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js):
+Error: Loading PostCSS Plugin failed: Cannot find module 'autoprefixer'
+Require stack:
+- E:\学习\webpack\code\webpack_project\noop.js
+
+(@E:\学习\webpack\code\webpack_project\postcss.config.js)
+    at load (E:\学习\webpack\code\webpack_project\node_modules\_postcss-load-config@2.1.0@postcss-load-config\src\plugins.js:28:11)
+    at E:\学习\webpack\code\webpack_project\node_modules\_postcss-load-config@2.1.0@postcss-load-config\src\plugins.js:53:16
+    at Array.map (<anonymous>)
+    at plugins (E:\学习\webpack\code\webpack_project\node_modules\_postcss-load-config@2.1.0@postcss-load-config\src\plugins.js:52:8)
+    at processResult (E:\学习\webpack\code\webpack_project\node_modules\_postcss-load-config@2.1.0@postcss-load-config\src\index.js:33:14)
+    at E:\学习\webpack\code\webpack_project\node_modules\_postcss-load-config@2.1.0@postcss-load-config\src\index.js:94:14
+    at E:\学习\webpack\code\webpack_project\node_modules\_webpack@4.41.6@webpack\lib\NormalModule.js:316:20
+    at E:\学习\webpack\code\webpack_project\node_modules\_loader-runner@2.4.0@loader-runner\lib\LoaderRunner.js:367:11
+    at E:\学习\webpack\code\webpack_project\node_modules\_loader-runner@2.4.0@loader-runner\lib\LoaderRunner.js:233:18
+    at context.callback (E:\学习\webpack\code\webpack_project\node_modules\_loader-runner@2.4.0@loader-runner\lib\LoaderRunner.js:111:13)
+    at E:\学习\webpack\code\webpack_project\node_modules\_postcss-loader@3.0.0@postcss-loader\src\index.js:208:9
+ @ ./src/index.js 9:0-20
+ @ multi @babel/polyfill ./src/index.js
+Child html-webpack-plugin for "index.html":
+     1 asset
+    Entrypoint undefined = index.html
+    [0] ./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./src/index.html 411 bytes {0} [built]
+    [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+    [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+        + 1 hidden module
+Child mini-css-extract-plugin node_modules/_css-loader@3.4.2@css-loader/dist/cjs.js!node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!src/css.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/_css-loader@3.4.2@css-loader/dist/cjs.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/css.less 1.04 KiB {0} [built] [failed] [1 error]
+    
+    ERROR in ./src/css.less (./node_modules/_css-loader@3.4.2@css-loader/dist/cjs.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js!./src/css.less)
+    Module build failed (from ./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js):
+    Error: Loading PostCSS Plugin failed: Cannot find module 'autoprefixer'
+    Require stack:
+    - E:\学习\webpack\code\webpack_project\noop.js
+    
+    (@E:\学习\webpack\code\webpack_project\postcss.config.js)
+        at load (E:\学习\webpack\code\webpack_project\node_modules\_postcss-load-config@2.1.0@postcss-load-config\src\plugins.js:28:11)
+        at E:\学习\webpack\code\webpack_project\node_modules\_postcss-load-config@2.1.0@postcss-load-config\src\plugins.js:53:16
+        at Array.map (<anonymous>)
+        at plugins (E:\学习\webpack\code\webpack_project\node_modules\_postcss-load-config@2.1.0@postcss-load-config\src\plugins.js:52:8)
+        at processResult (E:\学习\webpack\code\webpack_project\node_modules\_postcss-load-config@2.1.0@postcss-load-config\src\index.js:33:14)
+        at E:\学习\webpack\code\webpack_project\node_modules\_postcss-load-config@2.1.0@postcss-load-config\src\index.js:94:14
